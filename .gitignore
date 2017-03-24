@@ -1,0 +1,5 @@
+test_project/*.pyc
+test_project/test_project/*.pyc
+test_project/notes/*.pyc
+test_project/notes/migrations/*.pyc
+
