@@ -1,0 +1,24 @@
+*To create DB run following command:
+  
+     python manage.py makemigrations
+     python manage.py migrate
+
+*To initialize DB withb seed data which is located in seed_data folder:
+
+     python manage.py loaddata seed_data/note.json
+
+*To run django server (with default port 8000):
+
+     python manage.py runserver
+
+*To access API to fetch list of notes:
+
+     http://127.0.0.1:8000/api/notes/
+
+*To access API to fetch note with id say 1:
+
+     http://127.0.0.1:8000/api/notes/1/
+
+*To access a note with given subject filter say test1:
+
+     http://127.0.0.1:8000/api/notes/?subject=test1
